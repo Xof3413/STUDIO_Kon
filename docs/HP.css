@@ -53,6 +53,7 @@ header {
   padding: 0;
   background-image: url("image/0_top/ffxiv_20201124_030130_719.png");
   background-size: cover;
+  background-position: 0% 45%;
 }
 
 .top-wrapper h1 {
