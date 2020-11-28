@@ -325,9 +325,8 @@
 
 .gallery-wrapper { display:none; }
 .gallery-wrapper2 { display:block; }
-}
-
-.info-wrapper{
+  
+  .info-wrapper{
   height: 300px;
   text-align: center;
   overflow: hidden;
@@ -354,4 +353,6 @@
 
 .twitter {
   background: #55acee;
+}
+
 }
