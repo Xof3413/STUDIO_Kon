@@ -1,0 +1,357 @@
+@media  (max-width: 600px){
+
+  .head-right2 { display:block; }
+  .head-right { display:none; }
+
+  /****メニュー全体****/
+  #menu{
+  	/*配置*/
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	pointer-events: none;
+  	z-index: 100;
+  }
+
+  /****メニュー開閉ボタン****/
+  #menu div{
+  	/*デザイン*/
+  	width: 50px;
+  	height: 50px;
+  	background: rgba(200,200,200,1);
+  	/*配置*/
+  	overflow: hidden;
+  	position: absolute;
+  	right: 0;
+  }
+
+  #menu .menuopen{
+  	/*デザイン*/
+  	color: rgba(255,255,255,1);
+  	font-size: 40px;
+  	/*配置*/
+  	display: block;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	pointer-events: auto;
+
+  }
+
+  #menu .menuclose{
+  	/*デザイン*/
+  	color: rgba(255,255,255,1);
+  	font-size: 40px;
+  	/*配置*/
+  	display: none;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	pointer-events: auto;
+  }
+
+  /****メニュー一覧****/
+  #menu ul{
+  	/*デザイン*/
+  	background: rgba(200,200,200,1);
+  	width: 80%;
+  	/*配置*/
+  	position: absolute;
+  	top: 30px;/*#menu divの高さ*/
+  	right: 0;
+  	display: none;
+  }
+
+  #menu li{
+  	/*デザイン*/
+  	padding: 10px;
+  	color: rgba(0,0,0,1);
+  	border-bottom: 1px rgba(255,255,255,1) solid;
+  	/*配置*/
+  	pointer-events: auto;
+    list-style: none;
+  }
+
+  /****メニューオープン時****/
+  #menu:target .menuopen{
+  	/*配置*/
+  	display: none;
+  }
+
+  #menu:target .menuclose{
+  	/*配置*/
+  	display: block;
+  }
+
+  #menu:target ul{
+  	/*配置*/
+  	display: block;
+  }
+
+  .top-wrapper {
+    height: 800px;
+    padding: 0;
+    background-image: url("image/0_top/ffxiv_20201124_030130_719.png");
+    background-size: cover;
+    background-position: 65% 45%;
+  }
+
+  .top-wrapper h1 {
+    text-align: left;
+    padding: 500px 100px;
+  }
+
+  .message-wrapper {
+    height: 800px;
+    background-image: url("image/1_message/ffxiv_20201125_153449_2401.png");
+    background-position: 15% 100%;
+    background-size: cover;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sp { display:block; }
+
+
+  .Booth {
+    height: 800px;
+  }
+
+  .Booth-wrapper {
+    float: left;
+    width: 50%;
+    height: 400px;
+  }
+
+  .horizont1{
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .horizont1  img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 80% 50%;
+  }
+
+  .horizont1 img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+  .horizont2{
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .horizont2  img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 35% 50%;
+  }
+
+  .horizont2 img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+  .horizont3{
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .horizont3  img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 60% 50%;
+  }
+
+  .horizont3 img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+  .stairs{
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .stairs img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 40% 50%;
+  }
+
+  .stairs img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+  .Booth-image {
+    position: relative;
+  }
+
+  .Booth-image h2{
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 20px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+  }
+
+  .Booth-image p{
+    position: absolute;
+    margin: 0;
+    top: 90%;
+    left: 20px;
+    width: 100%;
+    color: white;
+  }
+
+  .access {
+    height: 800px;
+    background-image: url("image/3_access/ffxiv_20201125_155304_7892.png");
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .map{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+
+  .map p{
+      display: inline-block;
+      text-align: center;
+      width: 80%;
+      height: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+
+  .map img{
+      display: inline-block;
+      text-align: center;
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+  }
+
+  .underground p{
+      text-align: center;
+      width: 80%;
+      height: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+
+  .underground img{
+      text-align: center;
+      width: 50%;
+      height: 50%;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+
+  .access h2{
+    position: absolute;
+    text-align: left;
+    top: 3%;
+    left: 20px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+  }
+
+  .access-wrapper {
+    float: left;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .gallery-wrapper2 {
+    height: 800px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gallery-wrapper2 h2{
+    position: absolute;
+    text-align: left;
+    top: 3%;
+    left: 20px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+  }
+
+  .gallery-wrapper2 ul{
+    margin: 150px 80px 0px 80px;
+    padding: 0;
+
+  }
+
+  .gallery-wrapper2 img{
+      width: 80%;
+      height: 80%;
+      margin: 0 auto;
+    }
+
+.gallery-wrapper { display:none; }
+.gallery-wrapper2 { display:block; }
+}
+
+.info-wrapper{
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.info{
+  height: 180px;
+  margin: 60px 0;
+}
+
+.info-text {
+  width: 100%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 0px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.twitter {
+  background: #55acee;
+}
