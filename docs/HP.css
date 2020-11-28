@@ -1,5 +1,4 @@
 body {
-  min-width: 1440px;
   margin: 0;
   padding: 0;
   font-family: "游明朝";
@@ -25,6 +24,12 @@ header {
   margin: 0 auto;
   z-index: 2;
 }
+
+.head-right { display:block; }
+.head-right2 { display:none; }
+
+
+
 
 
 .head-left {
@@ -58,14 +63,14 @@ header {
 
 .top-wrapper h1 {
   text-align: left;
-  padding: 400px 100px;
+  padding: 500px 100px;
 }
 
 .message-wrapper {
   height: 800px;
-  background-image: url("image/1_message/ffxiv_20201125_153449_2400.png");
+  background-image: url("image/1_message/ffxiv_20201125_153449_2401.png");
   background-size: cover;
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   display: flex;
   flex-direction: column;
@@ -184,9 +189,9 @@ header {
 }
 
 .access p,img{
-    text-align: center;
-    width: 80%;
-    height: 80%;
+    text-align: left;
+    width: 50%;
+    height: 50%;
     font-size: 20px;
     margin: 0 auto;
 }
@@ -251,6 +256,9 @@ header {
     height: 80%;
     margin: 0 auto;
   }
+
+.gallery-wrapper { display:block; }
+.gallery-wrapper2 { display:none; }
 
 .info-wrapper{
   height: 300px;
