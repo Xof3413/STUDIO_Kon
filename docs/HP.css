@@ -49,7 +49,7 @@ header {
 }
 
 .top-wrapper {
-  height: 1080px;
+  height: 800px;
   padding: 0;
   background-image: url("image/0_top/ffxiv_20201124_030130_719.png");
   background-size: cover;
@@ -57,7 +57,7 @@ header {
 
 .top-wrapper h1 {
   text-align: left;
-  padding: 500px 100px;
+  padding: 400px 100px;
 }
 
 .message-wrapper {
