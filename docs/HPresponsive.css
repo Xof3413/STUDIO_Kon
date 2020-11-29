@@ -520,9 +520,9 @@
 
   .access h2{
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 3%;
-    left: 20px;
+    left: 50%;
     width: 100%;
     font-size: 30px;
     color: white;
@@ -539,13 +539,13 @@
 
   .map{
     position: absolute;
-    top: 5%;
+    top: 18%;
     left: 20%;
   }
 
   .underground{
     position: absolute;
-    top: 5%;
+    top: 18%;
     left: 20%;
   }
 
