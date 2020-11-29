@@ -397,6 +397,8 @@
     align-items: center;
   }
 
+.sp { display:block; }
+
   .Booth {
     height: 400px;
   }
