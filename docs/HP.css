@@ -28,10 +28,6 @@ header {
 .head-right { display:block; }
 .head-right2 { display:none; }
 
-
-
-
-
 .head-left {
   display:inline-block;
   float: left;
@@ -70,13 +66,15 @@ header {
   height: 800px;
   background-image: url("image/1_message/ffxiv_20201125_153449_2401.png");
   background-size: cover;
-  text-align: left;
+  text-align: center;
   font-size: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.sp { display:none; }
 
 .Booth {
   height: 800px;
