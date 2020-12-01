@@ -226,7 +226,7 @@ header {
 }
 
 .gallery-wrapper{
-  height: 800px;
+  height: auto;
   background-color: black;
   position: relative;
   overflow: hidden;
